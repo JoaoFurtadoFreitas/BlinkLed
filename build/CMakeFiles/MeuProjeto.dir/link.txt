@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/MeuProjeto.dir/src/led.cpp.o CMakeFiles/MeuProjeto.dir/src/main.cpp.o -o MeuProjeto 

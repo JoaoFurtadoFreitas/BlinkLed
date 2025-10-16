@@ -5,13 +5,16 @@
 
 class LED {
     
-    int pin;
+    int pinR;
+    int pinG;
+    int pinB;
     void on();
     void off();
 
     public:
-    LED(int pin);
+    LED(int pinR, int pinG, int pinB);
     void blink();
+    void setColor(int r, int g, int b);
 };
 
 #endif

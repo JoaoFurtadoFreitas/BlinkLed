@@ -20,7 +20,7 @@ O projeto foi dividido em três arquivos principais: `led.hpp`, `led.cpp` e `Led
 - No `.ino`, eu **instancio** o objeto `LED`.
 
 ### 🎥 Vídeo demonstração
-[📹 Clique aqui para assistir ou baixar o vídeo](assets/demonstracaoLedBlink.mp4)
+[📹 Clique aqui para assistir ou baixar o vídeo](https://drive.google.com/file/d/1IJd4EDCoFjQSIBkYzuWLf7d0Yrkp1SZY/view?usp=sharing)
 
 ---
 
@@ -33,9 +33,9 @@ O projeto foi dividido em três arquivos principais: `led.hpp`, `led.cpp` e `Led
 &nbsp; Eu separei o contúdo desta parte na branch `feat(extra_da_ponderada)`
 Para realizar a parte do **ir além**, primeiro aprendi a utilizar o **LED RGB**.  
 
-🎞️ [Vídeo LED RGB](assets/demonstracaoLedBlinkRGB.mp4)
+🎞️ [Vídeo LED RGB](https://drive.google.com/file/d/1VyF-uhCH1zKY_u8IZpCRiuxhQZ6V4SG7/view?usp=sharing)
 
 Eu usei três laços `for` para varrer os valores de cada terminal de sinal do RGB (de 0 a 255), gerando as **8 combinações possíveis** entre eles.  
 Depois disso, juntei esse circuito com o anterior (que possuía quatro LEDs coloridos), apenas inserindo-os dentro do `for`.
 
-🎬 [Vídeo Resultado Final](assets/ResultadoFinal.mp4)
+🎬 [Vídeo Resultado Final](assets/https://drive.google.com/file/d/1wd_ClJUXihuyL6mx9v9irxkK2CaDbu9w/view?usp=sharing)

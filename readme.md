@@ -38,4 +38,5 @@ Para realizar a parte do **ir além**, primeiro aprendi a utilizar o **LED RGB**
 Eu usei três laços `for` para varrer os valores de cada terminal de sinal do RGB (de 0 a 255), gerando as **8 combinações possíveis** entre eles.  
 Depois disso, juntei esse circuito com o anterior (que possuía quatro LEDs coloridos), apenas inserindo-os dentro do `for`.
 
-🎬 [Vídeo Resultado Final](assets/https://drive.google.com/file/d/1wd_ClJUXihuyL6mx9v9irxkK2CaDbu9w/view?usp=sharing)
+🎬 [Vídeo Resultado Final](https://drive.google.com/file/d/1wd_ClJUXihuyL6mx9v9irxkK2CaDbu9w/view?usp=sharing)
+                            

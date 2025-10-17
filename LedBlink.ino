@@ -2,25 +2,31 @@
 #include "include/led.hpp" 
 
 
-LED ledRGB(12,11,10);
+LEDRGB ledRGB(12,11,10);
+LED ledum(9);
+LED ledois(8);
+LED ledtres(7); 
+LED ledquatro(6);
 void setup(){
     Serial.begin(9600);
 }
 
 void loop(){
-ledRGB.setColor(255,0,0); // Red
-delay(1000);
-ledRGB.setColor(0,255,0); // Green
-delay(1000);
-ledRGB.setColor(0,0,255); // Blue
-delay(1000);
-ledRGB.setColor(255,255,0); // Yellow
-delay(1000);
-ledRGB.setColor(0,255,255); // Cyan 
-delay(1000);
-ledRGB.setColor(255,0,255); // Magenta
-delay(1000);
-ledRGB.setColor(255,255,255); // White
-delay(1000);
+for (int r = 0; r <= 255; r += 255) {      
+  for (int g = 0; g <= 255; g += 255) {
+    for (int b = 0; b <= 255; b += 255) {
+      ledRGB.setColor(r, g, b);
+      delay(500);
+    ledum.blink();
+       delay(500);
+     ledois.blink();
+    delay(500);
+         ledtres.blink();
+         delay(500);
+         ledquatro.blink();  
+     }
+   //O(N^3) eu conseguiria diminuir para O(N^2)? Eu pensei em passar os valores de r, g e b em um array e fazer um loop só, mas ainda não tive tempo de testar essa ideia.
 }
-//eu consigo fazer um for para varrer os possiveis valores de r, g e b?
+}
+
+}

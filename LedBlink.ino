@@ -1,6 +1,7 @@
 #include <Arduino.h>
 #include "include/led.hpp" 
 
+LED ledInterno(13); 
 
 LEDRGB ledRGB(12,11,10);
 LED ledum(9);
@@ -12,9 +13,12 @@ void setup(){
 }
 
 void loop(){
+
 for (int r = 0; r <= 255; r += 255) {      
   for (int g = 0; g <= 255; g += 255) {
     for (int b = 0; b <= 255; b += 255) {
+      ledInterno.blink();
+      delay(500);
       ledRGB.setColor(r, g, b);
       delay(500);
     ledum.blink();
